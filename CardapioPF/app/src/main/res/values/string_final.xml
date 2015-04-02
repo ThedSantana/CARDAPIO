@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="txt_conf">Agradecemos a Preferencia!</string>
+    <string name="txt_temp">Tempo de espera 15min!</string>
+    <string name="btn_principal">Inicio</string>
+
+</resources>

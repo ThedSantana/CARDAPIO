@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/b"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Bebida">
+
+
+    <TextView
+        android:id="@+id/txt_refri"
+        android:text="@string/txt_refri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <CheckBox
+        android:onClick="SelecionarBebida"
+        android:id="@+id/chk_coca"
+        android:text="@string/chk_coca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:onClick="SelecionarBebida"
+        android:id="@+id/chk_fanta"
+        android:text="@string/chk_fanta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_cerveja"
+        android:text="@string/txt_cerveja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <CheckBox
+        android:onClick="SelecionarBebida"
+        android:id="@+id/chk_skol"
+        android:text="@string/chk_skol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:onClick="SelecionarBebida"
+        android:id="@+id/chk_brahma"
+        android:text="@string/chk_brahma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_vinho"
+        android:text="@string/txt_vinho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <CheckBox
+        android:onClick="SelecionarBebida"
+        android:id="@+id/chk_vinho"
+        android:text="@string/chk_vinho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_agua"
+        android:text="@string/txt_agua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <CheckBox
+        android:onClick="SelecionarBebida"
+        android:id="@+id/chk_agua"
+        android:text="@string/chk_agua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/txt_esc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/bright_foreground_material_light"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/txt.list.bebida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/abc_search_url_text_normal"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/txt.beb.total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/abc_search_url_text"/>
+    <Button
+        android:onClick="EnviarDadosBebidas"
+        android:id="@+id/btn_proximo"
+        android:text="@string/btn_proximo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        />
+
+
+
+
+
+</LinearLayout>

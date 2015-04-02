@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="txt_refri">Regrigerante</string>
+  <string name="chk_coca">Coca Cola  - (R$3,50)</string>
+  <string name="chk_fanta">Fanta - (R$3,50)</string>
+    <string name="txt_cerveja">Cerveja</string>
+  <string name="chk_skol">Skol - (R$4,00)</string>
+    <string name="chk_brahma">Brahma - (R$4,00)</string>
+    <string name="txt_vinho">Vinho</string>
+  <string name="chk_vinho">Cantina da Serra - (R$30,00)</string>
+    <string name="txt_agua">Agua</string>
+  <string name="chk_agua">Bona Font - (R$3,00)</string>
+    <string name="txt_esc">Bebida(s) Escolhida(s)</string>
+
+
+
+</resources>
